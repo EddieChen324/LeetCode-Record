@@ -1,0 +1,17 @@
+Today I only solve one problem on LeetCode because I have to spend most of the time on my graduate project.
+In order to make progresses quickly, I plan to solve at least three problems on LeetCode everyday even through I have to do with my project.
+
+
+what I should remember today:
+first of all, the defination of singly linked list:
+// 单链表
+struct ListNode {
+    int val;  // 节点上存储的元素
+    ListNode *next;  // 指向下一个节点的指针
+    ListNode(int x) : val(x), next(NULL) {}  // 节点的构造函数
+};
+
+数组在定义的时候，长度就是固定的，如果想改动数组的长度，就需要重新定义一个新的数组。
+
+链表的长度可以是不固定的，并且可以动态增删， 适合数据量不固定，频繁增删，较少查询的场景。
+
